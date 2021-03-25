@@ -1,0 +1,127 @@
+<html>
+	<head> 
+            <title> ICICI Bank  </title> 
+<script>
+	function info()
+	{ 
+		alert (" THe POWER OF MONEY ");
+	}
+	function validate()
+	{
+		alert("validation started");
+		var x = document.getElementsById("uname");
+		alert(" The user name:"+x.value);
+
+		alert("validation started 2");
+		var y= document.getElementsById("upass").value;
+		
+		document.write("write a strong password"+y);
+	}
+
+	</script>
+<style>
+.me
+{
+background: linear-gradient( #E1BEE7 0%,#90CAF9 100%);
+}
+
+form
+{
+	background:orange;
+}
+
+</style>
+<link rel="stylesheet" href="styles.css">
+
+        </head>
+<body>
+     <center>
+
+        <h1> WELCOME TO ICICI Bank  </h1> <br>
+	<hr>
+
+	<p> ICICI bank is the leading bank in banking sector. It has been the best in providing customer support and has easy loan managment. We are located in differnt parts 
+	
+ 	</p>
+  <button onclick=validate()> VALIDATE ME</BUTTON>
+
+      <form>
+<fieldset>
+      <legend>let's register :</legend>
+	
+      <h2 class=me> REGISTER  </h2>
+ 	Enter Username : <input type=text placeholder="enter your name" id="uname" name=uname >
+	<br> <br> 
+Enter Password : <input type=password placeholder="enter password" name=upass>  <br><br>
+select Gender :
+  Male <input type="radio" id="male" name="gender" value="male">
+
+ Female <input type="radio" id="female" name="gender" value="female">
+<br>
+<br>
+select :
+<input type="checkbox"  name="certified" > Certified  
+
+<input type="checkbox"  name="employed" > employed  
+
+<input type="checkbox"  name="married" > married 
+
+<br>
+<br>
+
+
+	Enter email    :<input type=email placeholder="enter your email" name=uemail> <br><br>
+	Enter phone    : <input type=number placeholder="enter your mobile number email" name=uphone> <br><br>
+	Enter Address  : <textarea cols=20 rows=5 placeholder="enter your address" name=uaddress></textarea> <br><br>
+Enter country     : <select name=ucountry>
+ <option value="i"> INDIA </option>
+<option value="n"> Nepal </option>
+<option value="j"> Japan </option>
+</select>
+<br>
+<br>
+Enter state  : <select name=ustate>
+ <option value="i"> karnataka </option>
+<option value="i"> Tamil Nadu </option>
+
+</select>
+<br>
+<br>
+Enter city  : <select name=ucity>
+ <option value="i"> Bangalore</option>
+<option value="i"> chennai </option>
+
+</select>
+<br>
+<br>
+
+	
+	<br>
+      <input type=submit name=submit value="Register Me">
+</fieldset>
+
+</form>
+
+	<br>
+
+       <a href="home.html"> GO HOME </a>
+	
+</center>
+<ol type='i' reversed>
+   <li> Times of India </li>
+	<li> Bangalore Mirror </li>
+     <li> The Ecomonics times </li>
+
+</ol>
+
+<ul compact>
+
+ 	<li> honey+ water </li>
+	<li> Tea </li>
+	<li> Idli Sambar </li>
+</ul>
+
+ 	
+</body>
+
+</html>
