@@ -1,0 +1,24 @@
+table{
+	margin-top: 300px;
+	padding: 60px;
+	text-align: center;
+	background: rgb(16, 233, 215);
+	color: rgb(7, 6, 6);
+	width: 100%;
+	height: 100%;
+}
+h3{
+	margin-top: 300px;
+	text-align: center;
+
+}
+
+#show th, #show td{
+	padding: 60px;
+	
+	
+}
+
+#btna td input{
+	width: 100%;
+}
